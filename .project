@@ -23,7 +23,7 @@
 		<link>
 			<name>assets-raw</name>
 			<type>2</type>
-			<location>E:/Downloads/AA-ECLIPSE/SEV-Hyperion/SpaceInvaders-android/assets-raw</location>
+			<locationURI>PARENT-1-PROJECT_LOC/SpaceInvaders-android/assets-raw</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

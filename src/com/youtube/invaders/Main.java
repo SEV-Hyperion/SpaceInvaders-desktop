@@ -23,7 +23,8 @@ public class Main {
 			 settings.maxWidth = 1024;
 			 settings.maxHeight = 1024;
 			 settings.debug = MainGame.drawDebugOutline;  // Set  on/off  debug texture lines
-			 TexturePacker2.process(settings,"assets-raw/images", "../SpaceInvaders-android/assets/images","spaceinvaders.pack");
+//			 TexturePacker2.process(settings,"assets-raw/images", "../SpaceInvaders-android/assets/images","spaceinvaders.pack");// ORIGINAL
+			 TexturePacker2.process(settings,"../SpaceInvaders-android/assets-raw/images", "../SpaceInvaders-android/assets/images","spaceinvaders.pack");
 		}
 		
 		
