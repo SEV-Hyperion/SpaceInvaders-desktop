@@ -18,17 +18,18 @@ public class Main {
 
 		if (MainGame.rebuildAtlas) {
 			Settings settings = new Settings();
-			settings.maxWidth = 1024;
-			settings.maxHeight = 1024;
+			settings.maxWidth = 4096;
+			settings.maxHeight = 4096;
 			settings.debug = MainGame.drawDebugOutline; // Set on/off debug
 														// texture lines
 			// TexturePacker2.process(settings,"assets-raw/images",
 			// "../SpaceInvaders-android/assets/images","spaceinvaders.pack");//
+			
 			// ORIGINAL
 			TexturePacker2.process(settings,
 					"../SpaceInvaders-android/assets-raw/images",
 					"../SpaceInvaders-android/assets/images",
-					"spaceinvaders.pack");
+					"arcadia_alpha.pack");
 		}
 
 		LwjglApplicationConfiguration cfg = new LwjglApplicationConfiguration();
