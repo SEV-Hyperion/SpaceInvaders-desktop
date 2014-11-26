@@ -33,7 +33,7 @@ public class Main {
 		}
 
 		LwjglApplicationConfiguration cfg = new LwjglApplicationConfiguration();
-		cfg.title = "SpaceInvaders";
+		cfg.title = "Arcadia";
 		cfg.useGL20 = true;
 		cfg.width = MainGame.WIDTH;
 		cfg.height = MainGame.HEIGHT;
